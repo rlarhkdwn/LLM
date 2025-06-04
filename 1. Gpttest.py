@@ -18,7 +18,7 @@ response = client.chat.completions.create(
     messages=[
         {
             'role':'user',
-            'comment':'왜 강남은 강남이라고 할까요?', 
+            'comment':'왜 강남은 강남이라고 할까요?'
         }
     ],
     temperature = 0.0
